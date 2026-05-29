@@ -1,5 +1,7 @@
 # Project X — Roommate Bot MVP
 
+[Русская версия](README_RU.md)
+
 ## Overview
 
 Project X Roommate Bot is an MVP Telegram bot designed to help students find compatible roommates and housing options.
