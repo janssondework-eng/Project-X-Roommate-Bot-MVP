@@ -130,6 +130,7 @@ Project-X-Roommate-Bot-MVP/
 ├── SECURITY_CHECK.md
 ├── package.json
 └── .gitignore
+```
 
 ## Future Development
 
