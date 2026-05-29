@@ -108,3 +108,5 @@ Planned improvements:
 ## Status
 
 Current stage: MVP / Work In Progress
+
+[Русская версия](README_RU.md)
