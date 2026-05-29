@@ -1,0 +1,20 @@
+{
+  "name": "project-x-roommate-bot-mvp",
+  "version": "1.0.0",
+  "description": "MVP Telegram bot for student roommate matching and housing search",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "keywords": [
+    "telegram-bot",
+    "mvp",
+    "student-housing",
+    "roommate-matching",
+    "javascript",
+    "sqlite",
+    "product-analytics"
+  ],
+  "author": "Tim",
+  "license": "MIT"
+}
