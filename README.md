@@ -8,6 +8,18 @@ Project X Roommate Bot is an MVP Telegram bot designed to help students find com
 
 The project was created as an intermediate version of Project X — a student housing platform concept focused on making the roommate search process safer, simpler and more structured.
 
+## My Role
+
+In this project, I was responsible for:
+
+- Product idea and MVP concept
+- User flow design
+- Telegram bot logic planning
+- Roommate matching logic
+- Product documentation
+- Analytics metrics planning
+- GitHub portfolio presentation
+
 ## Project Goal
 
 The main objective of this MVP is to validate the core product hypothesis:
@@ -94,6 +106,30 @@ Potential product metrics:
 
 - Telegram Bot API
 - Wrangler CLI
+
+- ## Repository Structure
+
+```text
+Project-X-Roommate-Bot-MVP/
+│
+├── src/
+│   └── bot.js
+│
+├── docs/
+│   ├── product_description.md
+│   ├── user_flow.md
+│   └── roadmap.md
+│
+├── screenshots/
+│   └── project screenshots
+│
+├── README.md
+├── README_RU.md
+├── ROADMAP.md
+├── CHANGELOG.md
+├── SECURITY_CHECK.md
+├── package.json
+└── .gitignore
 
 ## Future Development
 
