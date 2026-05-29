@@ -4,52 +4,107 @@
 
 Project X Roommate Bot is an MVP Telegram bot designed to help students find compatible roommates and housing options.
 
-The project was created as an intermediate MVP version of Project X to validate user flows, profile logic, moderation mechanics and roommate matching functionality.
+The project was created as an intermediate version of Project X — a student housing platform concept focused on making the roommate search process safer, simpler and more structured.
+
+## Project Goal
+
+The main objective of this MVP is to validate the core product hypothesis:
+
+> Students need a simple and structured way to find compatible roommates before renting accommodation.
+
+The MVP allows testing user behaviour, profile logic, moderation workflows and matching mechanics before developing a full platform.
 
 ## Problem
 
-Students moving to a new city often face several problems:
+Students moving to a new city often face several challenges:
 
 - Difficulty finding reliable roommates
 - Lack of information about lifestyle habits and preferences
+- Housing search scattered across multiple chats and social networks
 - Safety concerns when contacting strangers
-- Housing search scattered across chats and social media
-- No simple compatibility-based matching system
+- No compatibility-based matching process
 
 ## Solution
 
-The MVP provides a Telegram-based interface where users can:
+The bot provides a structured Telegram-based workflow where users can:
 
 - Create a profile
-- Specify lifestyle and housing preferences
-- Upload a photo
+- Add personal preferences
+- Upload photos
 - Submit profiles for moderation
 - Search for compatible roommates
 - Receive matches based on selected criteria
 
 ## MVP Features
 
+### User Features
+
 - User registration
 - Profile creation
 - Profile editing
 - Photo upload
-- Basic roommate matching
-- Admin moderation
-- Admin feedback for rejected profiles
-- Invite-a-friend functionality
-- Persistent Telegram menu
-- SQLite database
-- Case-insensitive matching logic
+- Roommate search
+- Basic matching system
+- Persistent menu navigation
+
+### Admin Features
+
+- Profile moderation
+- Profile approval
+- Rejection comments
+- User management
+
+### Database
+
+- SQLite storage
+- User profiles
+- Matching data
+- Moderation status
+
+## Product Analytics
+
+The project was designed with future analytics capabilities in mind.
+
+Potential product metrics:
+
+- Registered users
+- Created profiles
+- Profile completion rate
+- Approval rate
+- Match conversion rate
+- Returning users
+- Invite conversion rate
+- User retention
 
 ## Tech Stack
 
+### Backend
+
 - JavaScript
-- Telegram Bot API
 - Cloudflare Workers
+
+### Database
+
 - SQLite
 - SQL
+
+### Platform
+
+- Telegram Bot API
 - Wrangler CLI
+
+## Future Development
+
+Planned improvements:
+
+- Advanced matching algorithm
+- Mutual match confirmation
+- Multi-language support
+- Housing listings
+- Analytics dashboard
+- Admin panel
+- User feedback system
 
 ## Status
 
-MVP / Work In Progress
+Current stage: MVP / Work In Progress
